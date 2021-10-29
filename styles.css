@@ -171,3 +171,85 @@ hr {
   background-color: rgb(42, 88, 133);
   margin-left: 10px;
 }
+
+.plitka-4 {
+  background: white;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 15px 20px;
+  max-width: 600px;
+  width: 100%;
+}
+
+.header-photo > img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.header-text > p:first-child {
+  margin-left: 15px; /* Все будет ломаться, надо что-то придумать */
+  color: rgb(42, 88, 133);
+  font-weight: bold;
+}
+
+.header-text > p:nth-child(2) {
+  margin-left: 5px;
+  opacity: 50%;
+}
+
+.header-text > p:last-child {
+  height: 15px;
+}
+.header-text {
+  display: flex;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+}
+
+.header-data > p {
+  margin-left: 15px; /* Все будет ломаться, надо что-то придумать */
+  opacity: 50%;
+}
+
+.header-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-main > p {
+  margin-top: 10px;
+}
+
+.main-photo > img {
+  height: 380px;
+  width: 600px;
+  margin-top: 10px;
+}
+
+.main-photo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.likes {
+  margin-top: 10px;
+  display: flex;
+  text-align: center;
+}
+.likes > img {
+  height: 28px;
+  width: 28px;
+}
+
+.likes > img:nth-last-child(2) {
+  opacity: 50%;
+  margin-left: 20px;
+}
+.likes > img:nth-last-child(1) {
+  opacity: 50%;
+  width: 35px;
+  margin-left: 20px;
+}
